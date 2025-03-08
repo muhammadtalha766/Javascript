@@ -1,0 +1,14 @@
+.heading{
+    background-color: red;
+    color : white;
+}
+
+button{
+    background-color: blue;
+    color : white;
+}
+
+button:hover{
+    background-color: yellow;
+    color: black;
+}
