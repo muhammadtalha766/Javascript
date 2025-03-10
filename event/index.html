@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in jsDocument</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    Note: js file ma likhy gy event ki priority ziyada hoti ha as compare to inline event.
+    <hr>
+    <button id="btn1">
+        Click me!
+    </button>
+    <button ondblclick="console.log('Button is clicked 2 times');">
+        Click me 2 times!
+    </button>
+    <div >
+        This is a div.
+    </div>
+    <hr>
+    <h2>Event object:</h2>
+    <pre>                   It is a special object that has details about the event.</pre>
+    <pre> node.event = (e) =>{
+        // hendle here
+    }
+</pre>
+<hr>
+<button id="btn2">This is btn2.</button>
+    <script src="script.js"></script>
+</body>
+</html>
