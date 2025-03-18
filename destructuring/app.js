@@ -23,3 +23,14 @@ let array = [10, 30, 20, 50];
 // let d = array[3];
 
 let [a,b,c,d] = array; // uper wali 4 lines ko 1 line ma likhny k liya, loop b use kr skty hn
+
+
+
+// another example swap 
+let x = 10, y = 20;
+// before swap
+console.log("x =",x,"y =",y);
+
+[x,y] = [y,x];
+// after
+console.log("x =",x,"y =",y);
