@@ -2,7 +2,7 @@
 let userScore = 0;
 let compScore = 0;
 
-const choices = document.querySelectorAll(".images");  // Sare choices (rock, paper, scissors)
+const choices = document.querySelectorAll(".images");  // Sare/All choices (rock, paper, scissors)
 const msg = document.querySelector("#msg");            // Message display karne ka div
 
 const userScorePara = document.querySelector("#user-score");  // User score ka span
